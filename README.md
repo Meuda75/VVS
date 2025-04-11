@@ -12,6 +12,15 @@
 
 ---
 
+## 🛠️ Architecture et compatibilité
+
+Le projet supporte deux types d'architecture :
+
+- `x86_64` (PC/Mac classiques) → utiliser seulement `docker-compose.yml`
+- `ARM64` (ex : Raspberry Pi) → ajouter un fichier `docker-compose.override.yml` pour adapter certaines images non compatibles.
+
+---
+
 ## ✅ Features (Roadmap MVP)
 
 ### 🎯 Core E-commerce
@@ -43,4 +52,4 @@
 ```bash
 git clone https://github.com/vascoII/VVS.git
 cd VVS
-docker-compose up -d
+docker compose up -d --build

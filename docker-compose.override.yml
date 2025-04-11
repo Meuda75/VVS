@@ -1,0 +1,9 @@
+services:
+  db:
+    image: arm64v8/mysql
+
+  phpmyadmin:
+    image: arm64v8/phpmyadmin
+
+  portainer:
+    image: portainer/portainer-ce:linux-arm64
