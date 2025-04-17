@@ -1,6 +1,7 @@
 TODO: Importer l’ancienne version du site
 
 Salut ! Voici les étapes à suivre pour uploader ton ancienne version du site (en fichier .zip) dans une branche séparée.
+
 🔧 1. Installer Git (si ce n’est pas encore fait)
 Sur Mac :
 
