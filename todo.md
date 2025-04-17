@@ -20,20 +20,24 @@ Sur Windows :
 
 Dans ton terminal, tape les commandes suivantes :
 
-# Cloner ton propre fork (si tu ne l’as pas déjà fait)
-git clone https://github.com/Meuda75/VVS.git
-cd VVS
+### Cloner ton propre fork (si tu ne l’as pas déjà fait)
 
-# Ajouter le repo original comme remote "upstream"
-git remote add upstream https://github.com/vascoII/VVS.git
+    git clone https://github.com/Meuda75/VVS.git
 
-# Mettre à jour ta copie locale avec la version la plus récente du repo original
-git fetch upstream
-git merge upstream/main
+    cd VVS
+
+### Ajouter le repo original comme remote "upstream"
+
+    git remote add upstream https://github.com/vascoII/VVS.git
+
+### Mettre à jour ta copie locale avec la version la plus récente du repo original
+
+    git fetch upstream
+    git merge upstream/main
 
 🌿 3. Créer une nouvelle branche
 
-git checkout -b import-ancien-site
+    git checkout -b import-ancien-site
 
 📦 4. Ajouter ton fichier ZIP
 
@@ -43,9 +47,11 @@ git checkout -b import-ancien-site
 
 💾 5. Commit et push
 
-git add .
-git commit -m "Ajout ancienne version du site"
-git push origin import-ancien-site
+    git add .
+
+    git commit -m "Ajout ancienne version du site"
+
+    git push origin import-ancien-site
 
 ✅ C’est tout ! Préviens-moi quand c’est fait, je récupérerai ta branche pour m’en occuper.
 Merci ! 🙌
