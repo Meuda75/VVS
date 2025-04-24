@@ -1,0 +1,43 @@
+# WordPress core
+wp-admin/
+wp-includes/
+index.php
+license.txt
+readme.html
+xmlrpc.php
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+
+# WooCommerce plugin
+wp-content/plugins/woocommerce/
+
+# Astra theme
+wp-content/themes/astra/
+
+# Default WordPress themes (si tu ne les utilises pas)
+wp-content/themes/twentyseventeen/
+wp-content/themes/twentynineteen/
+wp-content/themes/twentytwenty/
+wp-content/themes/twentytwentyone/
+wp-content/themes/twentytwentytwo/
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentyfour/
+
+# Uploads directory (contient les médias, potentiellement volumineux et spécifiques à l'environnement)
+wp-content/uploads/
+
+# Autres fichiers et dossiers potentiellement non nécessaires
+wp-content/upgrade/
+wp-content/cache/
+wp-config.php # Attention : ne commite jamais d'informations sensibles dans ce fichier directement !
+.htaccess
